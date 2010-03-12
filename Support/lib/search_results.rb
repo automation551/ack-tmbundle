@@ -15,8 +15,8 @@ class AckInProject::SearchResults
       :html_head    => header_extra()
     )
     puts <<-HTML
-      <h2>Searching for "#{ h search_string }" in #{ searched_in }</h2>
-      <div id="counters"><span id="linecount">0 lines</span> matched in <span id="filecount">0 files</span></div>
+      <h2>We can search for "#{ h search_string }" of this magnitude (in #{ searched_in })</h2>
+      <div id="counters"><span id="linecount">0 lines</span> matched in <span id="filecount">0 files</span>... it's a trap!</div>
       <script type="text/javascript">searchStarted();</script>
       <table id="results" width="100%" cellspacing="0">
     HTML
@@ -31,7 +31,7 @@ class AckInProject::SearchResults
   end
   
   def title 
-    "Ack in Project"
+    "Ackbar in Project"
   end
   
   def header_extra

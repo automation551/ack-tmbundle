@@ -16,7 +16,7 @@ end
 	<key>keyEquivalent</key>
 	<string>@A</string>
 	<key>name</key>
-	<string>Ack in Project</string>
+	<string>Ackbar in Project</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>
